@@ -1,0 +1,45 @@
+{menus: [
+  {label: 'Home',
+   value: 'Electronics',
+   toolbarUrl: 'home/toolbar.jsp'
+   },
+  {label: 'Electronics',
+   value: 'Electronics',
+   toolbarUrl: 'store/electronics/toolbar.jsp'
+   },  
+  {label: 'Computers',
+   value: 'Computers',
+   toolbarUrl: 'store/computers/toolbar.jsp'
+   },  
+  {label: 'DVDs',
+   value: 'DVDs',
+   toolbarUrl: 'store/video/toolbar.jsp'
+   },   
+  {label: 'Toys',
+   value: 'Toys',
+   toolbarUrl: 'store/toys/toolbar.jsp'
+   },                        
+  {label: 'Baby',
+   value: 'Baby',
+   toolbarUrl: 'store/baby/toolbar.jsp?category=Baby'
+   },      
+  {label: 'Jewelry',
+   value: 'Jewelry & Watches',
+   toolbarUrl: 'store/jewelry/toolbar.jsp?category=Jewelry'
+   },    
+  {label: 'Kitchen',
+   value: 'Kitchen & Houseware',
+   toolbarUrl: 'store/kitchen/toolbar.jsp'
+   },  
+  {label: 'Sporting Goods',
+   value: 'Sporting Goods',
+   toolbarUrl: 'store/sporting/toolbar.jsp'
+   },          
+  {label: 'About',
+    menuItems: [
+      {label:'Unimerse', url: 'about/unimerse/'},
+      {label:'Products & Services', url: 'about/services/'},
+      {label:'Technologies', url: 'about/tech/'},
+      {label:'Contact', url: 'about/contact/'}
+    ]}                
+]}

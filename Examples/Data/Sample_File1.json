@@ -1,0 +1,31 @@
+{
+   "tom" : { "abc": 12, "foo": "", "bool0": false, "bool1": true, "arr": [ 1, 2, 3, null, 5 ], "float": 1.234500 }, 
+   "books" : {
+      "book" : [ {
+         "@attributes" : {
+            "id" : "1"
+         },
+         "title" : "Code Generation in Action",
+         "author" : {
+            "first" : "Jack", "last" : "Herrington"
+         },
+         "publisher" : "Manning"
+      }, {
+         "@attributes" : {
+            "id" : "2"
+         },
+         "title" : "PHP Hacks", "author" : {
+            "first" : "Jack", "last" : "Herrington"
+         },
+         "publisher" : "O'Reilly"
+      }, {
+         "@attributes" : {
+            "id" : "3"
+         },
+         "title" : "Podcasting Hacks", "author" : {
+            "first" : "Jack", "last" : "Herrington"
+         },
+         "publisher" : "O'Reilly"
+      }
+   ]}
+}
